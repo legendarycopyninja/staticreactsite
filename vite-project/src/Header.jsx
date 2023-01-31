@@ -14,7 +14,7 @@ export default function Header() {
             </div>
             <div className="btn">
             <a href="mailto:dilliwebdev218@gmail.com" target="_blank" rel="noopener noreferrer" >
-                <button  className="email"><img src="/src/assets/mail.png" alt="email" />Email</button>
+                <button  className="email"><img src="mail.png" alt="email" />Email</button>
             </a>
             <a href="https://www.linkedin.com/in/dilli-rao-dadi-578493180/" target="_blank" rel="noopener noreferrer" >
                  <button className="linkedin"> <img src="linkedin.png" alt="linkedin" />LinkedIn</button>
