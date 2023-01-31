@@ -5,13 +5,21 @@ export default function Header() {
         <div className="header">
             <img src="./src/assets/5597.jpg" alt="dilli profile picture" className="profilepic" />
             <div className="devinfo">
-                <h2>Dilli Rao Dadi</h2>
-                <h3>Front End Web Developer</h3>
-                <h4>TCS - Chennai</h4>
+                <h2>Dilli Rao D</h2>
+                <h3>Front-End Developer</h3>
+                <h4>TCS - CHENNAI</h4>
+                <a href="tel:+918870142198">
+                <i class='fas fa-phone'></i>
+                    </a>
             </div>
             <div className="btn">
-            <button className="email"><img src="./src/assets/Mail.png" alt="email" /> Email</button>
-            <button className="linkedin"> <img src="./src/assets/linkedin.png" alt="linkedin" /> LinkedIn</button>
+            <a href="mailto:dilliwebdev218@gmail.com" target="_blank" rel="noopener noreferrer" >
+                <button  className="email"><img src="./src/assets/Mail.png" alt="email" />Email</button>
+            </a>
+            <a href="https://www.linkedin.com/in/dilli-rao-dadi-578493180/" target="_blank" rel="noopener noreferrer" >
+                 <button className="linkedin"> <img src="./src/assets/linkedin.png" alt="linkedin" />LinkedIn</button>
+            </a>
+
             </div>
         </div>
     )
