@@ -46,7 +46,7 @@
 .container {
   font-size: 1.2rem;
   color: white;
-  background-image: url('react.png');
+  background-image: url(/react.png);
   background-repeat: no-repeat;
   background-position: right center;
   
